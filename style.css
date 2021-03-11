@@ -10,16 +10,21 @@ body{
 
 .navbar{
     padding: .8rem;
+    background-color:rgba(36, 53, 77, 0.767);
   }
   .navbar-nav li{
     padding-right: 20px;
   }
   .nav-link{
     font-size: 1.1em !important;
+    color: white;
   }
-.carousel-item{
-
+h1{
+text-align: center;
 }
+
+
+
 
 
 
@@ -32,7 +37,7 @@ footer{
   }
   hr.light{
     border-top: 1px solid #ffffff;
-    width: 75%;
+    width: 100%;
     margin-top: .8rem;
     margin-bottom: 1rem;
   }
@@ -49,9 +54,14 @@ footer{
   font-size: 3em;
   margin: 2rem;
 }
-
-
-  
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-yelp:hover{
+  color: #a8a8a8;
+}
+.footer-text{
+  font-size: 20px;
+}
   
 
 
