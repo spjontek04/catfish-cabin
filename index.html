@@ -14,6 +14,16 @@
     <link rel="icon" href="/images/favicon.ico" type="image/gif" sizes="16x16">
 </head>
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  
+
+
+
+
+
+
+
 
   <nav class="navbar navbar-expand-md navbar-dark bg-rgb(36, 53, 77) sticky-top">
     <div class="container-fluid">
@@ -37,7 +47,7 @@
             <a class="nav-link" href="catering.html">Catering</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Connect</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="findus.html">Find Us</a>
@@ -47,9 +57,20 @@
     </div>	
     </nav>
     <!----------------------------------->
-  <img src="images/Catfish-Front.jpg"  class="center">
+  <img src="images/Catfish-Front.jpg"  class="center" >
   
-  <h1>text</h1>  
+  <!--- Jumbotron -->
+  <div class="container-fluid">
+    <div class="row jumbotron">
+      <div class="col-xsw-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+        <p class="lead">Wanna learn more.............</p>
+      </div>
+      <div class="col-xsw-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+        <a href="about.html"><button type="button" class="btn btn-outline-secondary btn-lg">More Info</button></a>
+      </div>
+    </div>
+    </div>  
+    
    
  
 
@@ -105,7 +126,28 @@
 
 
 
-
+      <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+            
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 </body>
