@@ -50,7 +50,7 @@ footer{
 .fa-facebook:hover,
 .fa-twitter:hover,
 .fa-yelp:hover{
-  color: #a8a8a8;
+  color: #b3b3b3;
 }
 .footer-text{
   font-size: 20px;
@@ -64,8 +64,8 @@ footer{
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: rgb(48, 74, 109);
-  color: white;
+  background-color: rgb(76, 117, 170);
+  color: rgba(255, 255, 255, 0);
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
@@ -92,22 +92,43 @@ footer{
   border: 5px solid rgb(153, 153, 153);
 }  
 
-.jumbotronbutton{
-  color: white;
-}
+
 
 
 
 /*menu page*/
+
+.parent{
+  position: relative;
+  top: 0;
+  left: 0;
+}
 .favorite{
     float: left;
     width: 50%;
     padding: 5px;
+    max-width: 100%;
+    height: 50%;
+    position: relative;
+      top: 0;
+      left: 0;
+}
+.star{
+width: 10%;
+position: absolute;
+top: 10px;
+left: 10px;
+}
+.star1{
+  width: 10%;
+  position: absolute;
+  top: 10px;
+  left: 1700px;
 }
 
-
-
-
+    
+ 
+    
 
 
 
@@ -116,4 +137,10 @@ footer{
 /*Find Us Page*/
 .googlemaps{
   padding: 3rem;
+}
+.location{
+  border-top: 1px solid #ffffff;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
 }
