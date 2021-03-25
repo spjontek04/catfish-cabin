@@ -65,7 +65,7 @@ footer{
   border: none;
   outline: none;
   background-color: rgb(76, 117, 170);
-  color: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
@@ -116,15 +116,17 @@ footer{
 .star{
 width: 10%;
 position: absolute;
-top: 10px;
-left: 10px;
+top: 5px;
+left: 5px;
 }
 .star1{
   width: 10%;
   position: absolute;
-  top: 10px;
-  left: 1700px;
+top: 5px;
+right: 5px;  
 }
+
+
 
     
  
@@ -138,9 +140,73 @@ left: 10px;
 .googlemaps{
   padding: 3rem;
 }
+
 .location{
   border-top: 1px solid #ffffff;
   width: 100%;
   margin-top: .8rem;
   margin-bottom: 1rem;
+}
+
+/*About page*/
+.aboutimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 75%;
+  
+} 
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+/* *contact form */
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(48, 72, 104);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(96, 141, 201);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+label {
+color: black;
 }
