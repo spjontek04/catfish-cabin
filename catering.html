@@ -50,91 +50,73 @@
     </div>	
     </nav>
     
-    
-    <div class="row">
-      <div class="col-75">
-        <div class="container">
-          <form action="/action_page.php">
-    
-            <div class="row">
-              <div class="col-50">
-                <h3>Billing Address</h3>
-                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
-                <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                <input type="text" id="email" name="email" placeholder="john@example.com">
-                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-                <label for="city"><i class="fa fa-institution"></i> City</label>
-                <input type="text" id="city" name="city" placeholder="New York">
-    
-                <div class="row">
-                  <div class="col-50">
-                    <label for="state">State</label>
-                    <input type="text" id="state" name="state" placeholder="NY">
-                  </div>
-                  <div class="col-50">
-                    <label for="zip">Zip</label>
-                    <input type="text" id="zip" name="zip" placeholder="10001">
-                  </div>
-                </div>
-              </div>
-    
-              <div class="col-50">
-                <h3>Payment</h3>
-                <label for="fname">Accepted Cards</label>
-                <div class="icon-container">
-                  <i class="fa fa-cc-visa" style="color:navy;"></i>
-                  <i class="fa fa-cc-amex" style="color:blue;"></i>
-                  <i class="fa fa-cc-mastercard" style="color:red;"></i>
-                  <i class="fa fa-cc-discover" style="color:orange;"></i>
-                </div>
-                <label for="cname">Name on Card</label>
-                <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-                <label for="ccnum">Credit card number</label>
-                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-                <label for="expmonth">Exp Month</label>
-                <input type="text" id="expmonth" name="expmonth" placeholder="September">
-    
-                <div class="row">
-                  <div class="col-50">
-                    <label for="expyear">Exp Year</label>
-                    <input type="text" id="expyear" name="expyear" placeholder="2018">
-                  </div>
-                  <div class="col-50">
-                    <label for="cvv">CVV</label>
-                    <input type="text" id="cvv" name="cvv" placeholder="352">
-                  </div>
-                </div>
-              </div>
-    
-            </div>
-            <label>
-              <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
-            </label>
-            <input type="submit" value="Continue to checkout" class="btn">
-          </form>
-        </div>
-      </div>
-    
-      <div class="col-25">
-        <div class="container">
-          <h4>Cart
-            <span class="price" style="color:black">
-              <i class="fa fa-shopping-cart"></i>
-              <b>4</b>
-            </span>
-          </h4>
-          <p><a href="#">Product 1</a> <span class="price">$15</span></p>
-          <p><a href="#">Product 2</a> <span class="price">$5</span></p>
-          <p><a href="#">Product 3</a> <span class="price">$8</span></p>
-          <p><a href="#">Product 4</a> <span class="price">$2</span></p>
-          <hr>
-          <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
-        </div>
-      </div>
+<!-- Page content -->
+<div class="w3-content" style="max-width:1200px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="">
     </div>
 
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Catering</h1><br>
+      <h5 class="w3-center"></h5>
+      <p class="w3-large">t labore et dolore magna aliqua. Ut en ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-right">
+       Our Menu</h1><br>
+      <h4>Hushpuppy Mix</h4>
+      <p class="w3-text-grey">Raw Hushpuppy Batter Mix ($/Gallon)</p><br>
+    
+      <h4>Slaw</h4>
+      <p class="w3-text-grey">Mayo-slaw, vinegar slaw ($/Gallon)</p><br>
+    
+      <h4>Catfish</h4>
+      <p class="w3-text-grey">Fried Catfish Fillet ($lb)</p><br>
+    
+      <h4>Chicken</h4>
+      <p class="w3-text-grey">Fried Chicken Tenders ($lb)</p><br>
+    
+      <h4>Drinks</h4>
+      <p class="w3-text-grey">Tea ($/Gallon)</p> 
+      
+      <h4>condements</h4>
+      <p class="w3-text-grey">dressings and sauces ($/Gallon)</p>
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
     
 
 
