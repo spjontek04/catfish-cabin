@@ -201,8 +201,9 @@ right: 5px;
 }
 .link:hover{
   color: gray;
-  opacity: 0.7; 
+  opacity: 0.8; 
 }
+.menu
 
 
     
@@ -409,8 +410,14 @@ svg #fish6{
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
   }
-  
-  
-
-
+} 
 /*END Fish Animation*/
+
+
+
+/* catering page*/
+
+
+.cateringcenter{
+  text-align: center;
+}
