@@ -8,6 +8,7 @@ body {
   color: rgb(230, 230, 230);
   font-size: 18px;
   font: 900;
+  
 }
 
 
@@ -260,6 +261,7 @@ hr.light-100 {
   transform: translate(-50%, -50%);
 }
 /*Menu starts*/
+
 .menu_tab {
   margin: 0 auto;
   justify-content: center;
@@ -617,8 +619,5 @@ svg #fish6 {
 }
 
 .items{
-  color: pink;
-}
-.cater-contact{
-
+  color: green pink;
 }
