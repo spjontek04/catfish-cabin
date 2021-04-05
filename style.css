@@ -294,7 +294,7 @@ hr.light-100 {
 }
 .menu_content {
   padding-left: 25px;
-  text-align: center;
+  
   
 }
 .menu_content h4 {
@@ -618,4 +618,7 @@ svg #fish6 {
 
 .items{
   color: pink;
+}
+.cater-contact{
+
 }
