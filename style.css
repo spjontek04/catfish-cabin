@@ -533,11 +533,13 @@ label {
 .form-container {
   border-radius: 5px;
   background-color: #f2f2f200;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 0px;
+  width: 50%;
+  margin-left: 25%;
 }
+.contact-box{
+background-color: white;
 
+}
 
 
 
@@ -704,7 +706,8 @@ svg #fish6 {
 }
 
 .items{
-  color: green;
+  color: gray;
+  font-weight: bold;
 }
 @media only screen and (max-width: 780px) {
   .frontimage{
