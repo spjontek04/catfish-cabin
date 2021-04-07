@@ -407,8 +407,9 @@ z-index: -1;
 }
 
 /* Hide the images by default */
-.mySlides {
+.Slides {
   display: none;
+  image: center;
 }
 
 /* Next & previous buttons */
@@ -516,16 +517,18 @@ textarea {
 }
 
 input[type=submit] {
-  background-color: rgb(48, 72, 104);
-  color: white;
+  background-color: white;
+  color: rgb(60, 88, 128);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  weight: 400;
 }
 
 input[type=submit]:hover {
   background-color: rgb(96, 141, 201);
+  color: white;
 }
 label {
   color: rgb(255, 255, 255);
@@ -533,11 +536,19 @@ label {
 .form-container {
   border-radius: 5px;
   background-color: #f2f2f200;
-  width: 50%;
-  margin-left: 25%;
+  width: 60%;
+  margin-left: 20%;
 }
-.contact-box{
+.contact-box1{
+  background-color: white;
+  height: 80px;
+}
+.contact-box2{
 background-color: white;
+}
+.submit-btn{
+  margin-left: 45%;
+  margin-right: 45%;
 
 }
 
@@ -720,5 +731,5 @@ svg #fish6 {
     display: block;
   }
 
-  }D
+  
 }
