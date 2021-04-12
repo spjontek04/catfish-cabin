@@ -129,6 +129,7 @@ footer {
   background-color: rgb(36, 53, 77);
   color: #ffffff;
   padding-top: 2rem;
+  width: 100%;
 }
 
 hr.light {
@@ -430,7 +431,7 @@ z-index: -1;
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 2px 0 0 2px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -728,5 +729,8 @@ svg #fish6 {
   .container-fluid-jumbotron{
     display: none;
   }
+  
+  
+  
 }  
 
