@@ -373,6 +373,7 @@ z-index: -1;
   top: 0;
   left: 0;
 }
+
 /*Find Us Page*/
 .google-maps {
   padding: 3rem;
@@ -390,7 +391,9 @@ z-index: -1;
 
 /*About -----------------------page*/
 
-
+* {
+  box-sizing: border-box;
+}
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
@@ -449,7 +452,7 @@ z-index: -1;
 .caption-container {
   text-align: center;
   background-color: #222;
-  padding: 300px 290px;
+  padding: 0px 100px;
   color: white;
 }
 
@@ -530,6 +533,7 @@ label {
 }
 .contact-box2{
 background-color: white;
+height: 200px;
 }
 .submit-btn{
   margin-left: 45%;
