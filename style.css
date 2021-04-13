@@ -737,6 +737,10 @@ svg #fish6 {
   a.animated-button.victoria-three{
     border: 1px solid;
   }
+  .google-maps{
+    padding: 0rem;
+    height: 500px;
+  }
   
 }  
 
