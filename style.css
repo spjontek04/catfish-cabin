@@ -729,8 +729,14 @@ svg #fish6 {
   .container-fluid-jumbotron{
     display: none;
   }
-  
-  
+  .navbar-nav li{
+    width: 100%;
+    font-size: 10px;
+    
+  }
+  a.animated-button.victoria-three{
+    border: 1px solid;
+  }
   
 }  
 
