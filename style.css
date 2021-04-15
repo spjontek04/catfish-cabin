@@ -23,7 +23,7 @@ h1 {
 .navbar {
   padding: .8rem;
   background-color: rgba(21, 37, 59, 0.767);
-  position: fixed;
+  position:fixed;
   width: 100%;
 
 }
@@ -564,7 +564,7 @@ svg.fish {
 
 @-webkit-keyframes swim {
   0% {
-    margin-left: -235px
+    margin-left: -235px;
   }
 
   90% {
@@ -578,7 +578,7 @@ svg.fish {
 
 @keyframes swim {
   0% {
-    margin-left: -235px
+    margin-left: -235px;
   }
 
   70% {
@@ -591,7 +591,7 @@ svg.fish {
 }
 
 .fish {
-  width: 235px;
+  width: 100%;
   height: 104px;
   margin-left: -235px;
   position: absolute;
