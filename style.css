@@ -398,10 +398,13 @@ z-index: -1;
 }
 .two-col-sec{
   margin-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .video-player{
   height: 400px;
   width: 100%;
+  border: solid black;
 }
 
 /* *contact form */
